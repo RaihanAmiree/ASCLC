@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import BgImage from '../assets/HomeBg.jpg';
 import Logo from '../assets/Logo.png';
 import BgDark from './BgDark';
+import { Link } from 'react-router-dom';
 
 const ServiceHero = ({ children }) => {
 
@@ -67,14 +68,16 @@ const ServiceHero = ({ children }) => {
 Plan your path to professional success using career exploration tools, mentorship, skill-building resources, and guidance designed for students.
             </motion.p>
 
-            <motion.button
-              initial="hidden"
-              animate="visible"
-              variants={buttonVariant}
-              className="px-10 py-4 bg-gradient-to-r from-purple-600 to-blue-500 text-xl text-white font-semibold rounded-2xl hover:from-purple-500 hover:to-blue-400 transition duration-200"
-            >
-              Sign In
-            </motion.button>
+         <Link to='/registration'>
+                <motion.button
+                  initial="hidden"
+                  animate="visible"
+                  variants={buttonVariant}
+                  className="px-10 py-4 bg-gradient-to-r from-purple-600 to-blue-500 text-xl text-white font-semibold rounded-2xl hover:from-purple-500 hover:to-blue-400 transition duration-200"
+                >
+                  Sign In
+                </motion.button>
+              </Link>
           </div>
 
           {/* Logo Image */}

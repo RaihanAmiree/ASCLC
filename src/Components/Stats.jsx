@@ -4,25 +4,25 @@ const statsData = [
   {
     id: 1,
     logo: "https://img.icons8.com/ios/100/ffffff/user-group-man-man.png",
-    number: "6,561+",
-    label: "Satisfied Clients",
+    number: "75+",
+    label: "Club Members",
   },
   {
     id: 2,
     logo: "https://img.icons8.com/ios/100/ffffff/opened-folder.png",
-    number: "600+",
-    label: "Finished Projects",
+    number: "10+",
+    label: "Conducted Sessions",
   },
   {
     id: 3,
     logo: "https://img.icons8.com/ios/100/ffffff/idea.png",
-    number: "250+",
+    number: "20+",
     label: "Skilled Experts",
   },
   {
     id: 4,
     logo: "https://img.icons8.com/ios/100/ffffff/megaphone.png",
-    number: "590+",
+    number: "15+",
     label: "Media Posts",
   },
 ];

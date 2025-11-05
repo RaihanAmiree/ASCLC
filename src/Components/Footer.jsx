@@ -78,7 +78,7 @@ const Footer = () => {
               </p>
               <p className="flex items-start text-sm">
                 <span className="mr-3 mt-1">&#x1F551;</span> {/* Clock icon */}
-                Working Hours :  24/7
+                Available :  24/7
               </p>
               <p className="flex items-start text-sm">
                 <span className="mr-3 mt-1">&#x260E;</span> {/* Phone icon */}

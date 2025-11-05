@@ -66,17 +66,17 @@ function AutoPlay() {
     },
     {
       img: Nashwan,
-      name: "Nashwan Tashdid",
+      name: "Hemadri Shekhar",
       rank: "Organizing secretary",
-      grade: "IX EV-4",
-      roll: "Roll : 19",
+      grade: "IX EV-",
+      roll: "Roll : 09",
     },
     {
       img: Ruwayd,
-      name: "Ruwayd Shyan",
+      name: "Wasifur Rahman",
       rank: "Administrative Secretary",
-      grade: "IX EV-2",
-      roll: "Roll : 33",
+      grade: "IX EV-1",
+      roll: "Roll : 07",
     },
   ];
 

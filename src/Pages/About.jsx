@@ -1,6 +1,6 @@
 import React from 'react'
 import Background from '../Components/Background'
-import VideoScrollHero from '../Components/ScrollExpand'
+import ImageScrollHero from "../Components/ScrollExpand";
 import Club from '../assets/Club.jpg'
 import InfoCards from '../Components/InfoCards'
 import Amiree from '../assets/Amiree.jpg'
@@ -19,7 +19,7 @@ const About = () => {
     <Background>
       <AboutHero></AboutHero>
 
-      <VideoScrollHero src={Club} />
+      <ImageScrollHero src={Club} />
 <Underline title='Club Moderator' className='mb-30'></Underline>
 <InfoCards
 img={Miss}
