@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import BgImage from '../assets/HomeBg.jpg';
+import BgImage from '../assets/HomeBG.jpg';
 import Logo from '../assets/Logo.png';
 import BgDark from './BgDark';
 import { Link } from 'react-router-dom';
