@@ -1,9 +1,7 @@
 import React from 'react'
 import Background from '../Components/Background'
-import ImageScrollHero from "../Components/ScrollExpand";
 import Club from '../assets/Club.jpg'
 import InfoCards from '../Components/InfoCards'
-import Amiree from '../assets/Amiree.jpg'
 import AutoPlay from '../Components/InfoCarousel'
 import President from '../Components/President'
 import Underline from '../Components/Underline'
@@ -18,8 +16,13 @@ const About = () => {
     <>
     <Background>
       <AboutHero></AboutHero>
-
-      <ImageScrollHero src={Club} />
+<div className="w-full max-w-4xl mx-auto p-4 my-20">
+  <img
+    src={Club}
+    alt="Club"
+    className="w-full h-auto rounded-lg shadow-lg object-cover"
+  />
+</div>
 <Underline title='Club Moderator' className='mb-30'></Underline>
 <InfoCards
 img={Miss}
